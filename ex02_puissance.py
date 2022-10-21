@@ -22,3 +22,30 @@ def puissance_B(a,n):
   return r
 
 a = 54
+
+
+for i in range(6):
+  t0 = time.time()
+  n = 10**i
+  puissance_A(a,n)
+  t1 = time.time()
+  print(n)
+  print(t1-t0)
+
+print("__________________________________")
+print("          fonction 2              ")
+print("__________________________________")
+
+
+for i in range(6):
+  t0 = time.time()
+  n = 10**i
+
+  puissance_B(a,n)
+  t1 = time.time()
+  print(n)
+  print(t1-t0)
+
+
+
+
