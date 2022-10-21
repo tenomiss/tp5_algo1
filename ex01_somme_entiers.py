@@ -23,6 +23,19 @@ for i in range(7):
   print(n)
   print(temps1 - temps0)
 
+print("____________________________________")
+print("        partie 2 (fonction2)")
+print("____________________________________")
+#2
+
+for b in range(10):
+  temps2 = time.time()
+  n = 10**b
+  somme_entiers_2(n)
+  temps3 = time.time()
+  print(n)
+  print(temps3-temps2)
+
 
 
 
